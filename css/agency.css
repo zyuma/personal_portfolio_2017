@@ -22,8 +22,12 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  text-transform: uppercase; }
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;}
+
+h2 {
+  text-transform: uppercase;
+}
+
 
 section {
   padding: 100px 0; }
@@ -137,8 +141,7 @@ header.masthead {
       font-weight: 700;
       line-height: 50px;
       margin-bottom: 25px;
-      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-      text-transform: uppercase; }
+      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
@@ -155,8 +158,7 @@ header.masthead {
       font-weight: 700;
       line-height: 75px;
       margin-bottom: 50px;
-      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-      text-transform: uppercase; } }
+      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; } }
 
 .service-heading {
   margin: 15px 0;
@@ -435,10 +437,12 @@ header.masthead {
     margin-top: 0; }
 
 section#contact {
+  background-color: #222222;
+  background-image: url("../img/map-image.png");
   background-repeat: no-repeat;
   background-position: center; }
   section#contact .section-heading {
-    color: black; }
+    color: white; }
   section#contact .form-group {
     margin-bottom: 25px; }
     section#contact .form-group input,
